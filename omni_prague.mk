@@ -38,3 +38,6 @@ TARGET_SCREEN_WIDTH := 1080
 # OmniROM 7.1 Nougat
 $(call inherit-product, vendor/omni/config/common.mk)
 $(call inherit-product, vendor/omni/config/gsm.mk)
+
+include device/huawei/prague/BoardConfigOmni.mk
+
